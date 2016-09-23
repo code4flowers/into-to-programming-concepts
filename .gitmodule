@@ -3,4 +3,4 @@
 	url = https://github.com/Cara-Jo/reveal.js.git
 [submodule "programming"]
 	path = programming
-	url = git@github.com:gdiboulder/gdi-boulder-intro-programming-concepts.git
+	url = git@github.com:gdidayton/gdi-dayton-intro-programming-concepts.git
