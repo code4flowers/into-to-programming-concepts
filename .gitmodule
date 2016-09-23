@@ -1,6 +1,4 @@
-[submodule "reveal"]
-	path = reveal
-	url = https://github.com/Cara-Jo/reveal.js.git
-[submodule "programming"]
-	path = programming
-	url = git@github.com:gdidayton/gdi-dayton-intro-programming-concepts.git
+
+[submodule "reveal.js"]
+	path = reveal.js
+	url = https://github.com/hakimel/reveal.js.git
