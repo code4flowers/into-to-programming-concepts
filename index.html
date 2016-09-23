@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="reveal/css/reveal.css">
 	<link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/type.css" />
 
 	<!-- For syntax highlighting -->
 	<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
@@ -37,31 +38,60 @@
 		<div class="slides">
 			<!-- Opening slide -->
 			<section>
+				<!-- Additional Slide for WiFi Information (When Needed) -->
+				<h3>Network: <span style="text-transform: none;">BuildRight</span></h3>
+				<h3>Password: <span style="text-transform: none;">betterweb</span></h3>
+				<br />
+				<h3>Slides: <a style="text-transform: none;" href="http://bit.ly/gdi-dayton-intro-programming">bit.ly/gdi-dayton-intro-programming</a></h3>
+				<h3>Repl.it: <a style="text-transform: none;" href="https://repl.it/login">https://repl.it/login</a></h3>
+				<p>
+					While you wait for class to begin, get on the wifi, bring up the slides and make a free repl.it account.
+				</p>
+			</section>
+			<section>
 				<img src="images/gdi_dayton_logo_badge.png" style="border:none; background: 0; box-shadow: none;">
 				<h3>Introduction to Programming Concepts</h3>
+				<p>
+					<small>Brought to you by <a href="www.gdidayton.com">Girl Develop It Dayton</a> | <a href="http://www.twitter.com/gdidayton">@GDIDayton</a></small>
+				</p>
+				<p>
+					<small>Presented by K.C. Jones-Evans | <a href="http://www.twitter.com/kcjonesevans" target="_blank">@kcjonesevans</a></small>
+				</p>
 			</section>
 
 
 			<section>
-				<h2>Thanks to our sponsor:</h2>
+				<h2>Thanks to our location sponsor:</h2>
 				<img src="images/sponsors/sparkbox_white.png" style="border:none; width: 400px; background: 0; box-shadow: none;" />
 			</section>
 			<section>
-				<h2>Thanks to our sponsor:</h2>
+				<h2>Thanks to our snacks sponsor:</h2>
 				<img src="images/sponsors/ais_white.png" style="border:none; width: 400px; background: 0; box-shadow: none;" />
 			</section>
 			<section>
 				<h2>A few quick announcements</h2>
+				<ul>
+					<li>
+						WiFi Network is BuildRight, the password is betterweb
+					</li>
+					<li>
+						Restrooms are down the ramp and to the right
+					</li>
+					<li>
+						Please be respectful!
+					</li>
+				</ul>
+				<aside class="notes">
+					Please take phone converstations outside.
+				</aside>
 			</section>
-			<section>
-				<h3>Upcoming Events</h3>
-			</section>
+
 
 
 			<section class="hide-pdf">
 				<h3>Welcome!</h3>
-				<div class="left-align">
-					<p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
+				<div class="accessibilityWrapper">
+					<p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands on instruction.</p>
 					<p class="green">Some "rules"</p>
 					<ul>
 						<li>We are here for you!</li>
@@ -71,113 +101,707 @@
 					</ul>
 				</div>
 			</section>
-			<section class="hide-pdf">
-				<h3>Your instructor and TAs</h3>
+
+			<section>
+				<!-- Welcome (Getting to Know You) -->
+				<h2>Getting to Know You</h2>
+				<ol>
+					<li>What's your name?</li>
+					<li>What do you want to take from this class?</li>
+					<li>What's your fall beverage?</li>
+				</ol>
+			</section>
+
+
+			<section>
+				<!-- Overview: What's Covered in the Class -->
+				<h2>What We'll Be Covering:</h2>
+				<ol>
+					<li class="fragment">The History of Computing</li>
+					<li class="fragment">How Computers Think</li>
+					<li class="fragment">How Programming Languages Developed</li>
+					<li class="fragment">Basic Programming Concepts</li>
+					<li class="fragment">What Should I Do Next?</li>
+				</ol>
+
+				<aside class="notes">
+					In this workshop, we'll be sampling from a number of topics,
+					<ol>
+						<li>
+							starting with running through the history of how computers as we understand them today came to be,
+						</li>
+						<li>
+							how computers think, and how the way humans talk to computers has changed.
+						</li>
+						<li>
+							Then we'll dig into some top-level programming concepts to lay a nice foundation for your further forays into programming.
+						</li>
+						<li>
+							By the end of this workshop, you will also have dabbled in Java, Python, and Ruby, and have an enhanced understanding of many programming jokes.
+						</li>
+					</ol>
+				</aside>
+			</section>
+
+
+			<section data-background="images/slide-images/go-back.gif">
+				<!-- SEGUE: The History of Computing -->
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years -->
+				<h1>Computation: <br>The Early Years</h1>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: Analog Calculators -->
+				<h2>Computation: The Early Years</h2>
+
+				<div style="float: left; width: 33%;">
+					<img src="images/slide-images/abacus.jpg" alt="An abacus." />
+				</div>
+				<div style="float: left; width: 33%; margin: 0 0.5%">
+					<img src="images/slide-images/astrolabe.jpg" alt="An astrolabe." />
+				</div>
+				<div style="float: left; width: 33%;">
+					<img src="images/slide-images/sliderule.jpg" alt="A slide rule." />
+				</div>
+
+				<p>
+					<i><small>Examples of some early analog calculators.</small></i>
+				</p>
+
+				<aside class="notes">
+					People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms. However, these technologies only went so far in that they had singular purposes
+					and their scope was limited by the space they occupied, and as the Industrial Revolution kicked up and global trade started to expand, it became more imperative to get engineers and navigators the appropriate tables of equations so they could do
+					their jobs well. These were difficult to reproduce accurately, and folks were feeling the pain. In classic infomercial style, THERE HAS TO BE A BETTER A BETTER WAY.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: Mechanical Calculators -->
+				<h2>Computation: The Early Years</h2>
+				<img src="images/slide-images/difference-engine-drawing.jpg" style="height: 50vh;" alt="Difference Engine drawing" />
+
+				<p>
+					<i><small>Diagram of Charles Babbage's Difference Engine.</small></i>
+				</p>
+
+				<aside class="notes">
+					And indeed there was! In 1822, Charles Babbage concepted a mechanical calculator that could print up these tables without risk of human error that he styled the Difference Engine. The British government was all over this in that first year gave him £1,700,
+					which, in today's money, is roughly $200K.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: The Struggle of Science -->
+				<h2>Computation: The Early Years</h2>
+
+				<img src="images/slide-images/differenceengine.jpg" style="height: 50vh;" alt="A constructed difference engine" />
+				<p>
+					<i><small>An actual difference engine built out.</small></i>
+				</p>
+
+				<aside class="notes">
+					However, as far as the British government was concerned, human error still reigned in this case, as the Difference Engine ended up being trapped in development hell — the engine he concepted was too spendy and too complicated to produce at that time and
+					wouldn't actually be built out until 1989 when it was basically done for fun by the London Science Museum Also to their chagrin, Babbage had gotten distracted by another project in 1837 – an analytical engine that could be used more broadly, had
+					"memory", and could grapple with loops and conditional branching.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: The First Program -->
+				<h2>Computation: The Early Years</h2>
+				<img src="images/slide-images/adaprogram.jpg" alt="A diagram showing Ada Lovelace's program for the computation of Bernoulli numbers." />
+				<p>
+					<i><small>A program for the computation of Bernoulli numbers designed for the analytical engine.</small></i>
+				</p>
+				<aside class="notes">
+					Babbage's mathematical bestie was also pretty excited about this analytical engine, and when asked to translate a paper on a lecture he gave on the machine in French, in 1843 casually included annotations several times longer than the entire, explaining
+					why it was so cool. Including an algorithm designed specifically use on the engine, which has the distinction of being the first published computer program.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: The First Programmer-->
+				<h2>Computation: The Early Years</h2>
+				<img src="images/slide-images/adalovelace.jpg" alt="A portrait of Ada Lovelace." />
+				<p><small><i>Our Lady of Conceptual Programming, <strong class="blue">Ada Lovelace</strong></i></small></p>
+
+				<aside class="notes">
+					Said programmer was Ada Lovelace.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: Before and After -->
+				<h2>Computation: The Early Years</h2>
+				<img src="images/slide-images/analyticalEngine.jpg" alt="Illustration of Ada Lovelace and Charles Babbage standing beside a constructed Analytical Engine." />
+				<p>
+					<i><small>Analytical Engine per Sydney Padua's <strong>The Thrilling Adventures of Lovelace and Babbage</strong>.</small></i>
+				</p>
+
+				<aside class="notes">
+					<!-- Computation: The Early Years: How Computers Turned Out -->
+					How computers ultimately ended up working primarily looked much different from Babbage’s initial design, because base-ten counting — the numbering system that we're most familiar with and gets the most play in the West, makes for a much more complicated
+					device then base-two.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Computation: The Early Years: How Computers Turned Out, Part 2 -->
+				<h2>Computation: The Early Years</h2>
+
+				<img src="images/slide-images/colossus.png" style="height: 60vh" alt="Photo of two programmers next to the Colossus at Bletchley Park" />
+				<p><small><i>Programmers working with the Colossus, a Nat-zee code-breakin'<br> machine and one of the first digital computers.</i></small></p>
+
+				<aside class="notes">
+					... the device, however, was just as large.
+				</aside>
+			</section>
+
+			<section>
+				<!-- How Computers Think -->
+				<h1>How Do Computers Do Their Thinking?</h1>
+			</section>
+
+			<section>
+				<!-- How Computers Think -->
+				<h2>How Computers Think</h2>
+				<p>
+					Computers have three types of memory &mdash; <strong class="blue">Read-Only Memory</strong>,
+					<strong class="blue">Hard Drive Memory</strong>, and <strong class="blue">Random Access Memory</strong>.
+				</p>
+
+				<aside class="notes">
+					... once digital computers arrived, the base on which computers did all of their thinking, colloquially referred to as “memory,” stabilized into three forms, . It operates a little differently from human memory, but I'll try to make it as clear as possible.
+				</aside>
+			</section>
+
+			<section>
+				<!-- How Do Computers Do Their Thinking: ROM -->
+				<h2>How Computers Think: ROM</h2>
+				<p>
+					<strong class="blue">ROM</strong>, or <strong class="blue">Read-Only Memory</strong>, is hardwritten into chips and handles data essential to a computer's operation.
+				</p>
+
+				<aside class="notes">
+					ROM, or read-only memory, is memory that’s hardwritten onto chips. This kind of memory is typically responsible for serving up the kind of data that’s your computer would be hard-pressed to operate without — like an operating system. Of course, making
+					it quick to access means that files in it can’t be edited, and means that your computer won’t forget how to operate when it’s turned off. Do we have any gamers in our midst? Or been down to 16-Bit?
+				</aside>
+			</section>
+			<section>
+				<h2>How Computers Think: ROM</h2>
+				<small>Cartridge-based video games are a small example of read-only memory.</small>
+				<img src="images/slide-images/rom-cartridge.png" alt="A dissected Game Boy game cartridge.">
+
+				<aside class="notes">
+					In the arcade and early home gaming eras, games were printed as read-only memory onto chips and read directly and immediately by their computer systems. One of the pitfalls of writing data to ROM is that space is limited to what you can physically place
+					on the chips, which is why you don't see many cartridges in use nowadays.
+				</aside>
+			</section>
+			<section>
+				<h2>How Computers Think: ROM</h2>
+				<img src="images/slide-images/supermarioworld.gif" alt="A screenshot of Super Mario World.">
+
+				<aside class="notes">
+					It did, however, make these games run at a very snappy pace, which is why we may have had to suffer through replaying levels in older games, it wasn't paired with the indignity of having to sit through a loading screen like we do with games on discs.
+				</aside>
+			</section>
+			<section>
+				<h2>How Computers Think: ROM</h2>
+				<small><strong class="blue">Read-Only Memory</strong> functions similarly to the brainstem.</small>
+				<img src="images/slide-images/heavy-breathing-cat.gif" alt="A fat cat with the caption 'heavy breathing' breathes heavily.">
+
+			</section>
+
+			<aside class="notes">
+				In a computer, it operates a bit like your brain stem — taking care of activities that are necessary to life so you don’t have to spend all of your thinking on performing them, like breathing. I am sorry if you are now thinking about breathing and actively
+				doing it right now.
+			</aside>
+
+			<!-- How Do Computers Do Their Thinking: Hard Drive Memory -->
+
+			<section>
+				<h2>How Computers Think: <br>Hard Drive Memory</h2>
+				<p>
+					<strong class="blue">Hard Drive Memory</strong> is editable memory that holds files and programs that you create and install.
+				</p>
+
+				<aside class="notes">
+					Hard drive memory — not explicitly named as memory, but still, technically memory, holds files and programs on your computer that you create and install. While ROM is fixed, memory on your hard drive can be written and edited, which makes it very much
+					like long-term memory. When you “save” files, you’re writing them to your hard drive. Flash drives, similarly, are a type of hard drive memory.
+				</aside>
+			</section>
+
+			<section>
+				<h2>How Computers Think: <br>Hard Drive Memory</h2>
+				<img src="images/slide-images/insideout.jpeg" alt="The Emotions from Inside Out">
+
+				<aside class="notes">
+					The human analogue of this type of computer memory is long-term memory. If you’ve seen the movie Inside Out, the way in which memories are stored is actually pretty similar to how computers hold onto data.
+				</aside>
+			</section>
+
+
+			<!-- How Do Computers Do Their Thinking: RAM -->
+
+			<section>
+				<h2>How Computers Think: RAM</h2>
+				<p>
+					<strong class="blue">RAM</strong>, or <strong class="blue">Random Access Memory</strong> is volatile memory that handles data that the computer is actively using.
+				</p>
+
+				<aside class="notes">
+					... is volatile — the data it grapples with isn’t ‘written’ anywhere, just temporarily stored on a series of electrified capacitors. The more capacitors there are dedicated to this purpose, the more a computer can do at once. Has anyone had their computer
+					crash and lost hours worth of work before?
+				</aside>
+			</section>
+
+			<section data-background="images/slide-images/dawsoncrying.gif">
+				<!-- A picture of a cartoon dog in a burning house staying put and
+							saying "This is fine." -->
+				<aside class="notes">
+					This is RAM's fault. Yes, dear friends — this is why there’s a whole lot of weeping and your recent work to files is lost to the ether in the case of a computer crash — your RAM doesn’t suddenly loses context and you’re left with a blank slate.
+				</aside>
+			</section>
+
+			<section>
+				<h2>How Computers Think: RAM</h2>
+				<img src="images/slide-images/50firstdates.jpg" alt="Confused Drew Barrymore sitting next to Adam Sandler.">
+
+				<aside class="notes">
+					Computers are very much like Drew Barrymore's character in 50 First Dates — doomed to lose any "new" memories whenever she loses consciousness. Both tragic, and a blessing in that, as far as she knows, Adam Sandler's filmography ends in the year 2003.
+					Fortunately, a lot of programs do some stealth-saving in the background and provide you with recovery files, but that pain and terror is a part of RAM.
+				</aside>
+			</section>
+
+			<section>
+				<h2>How Computers Think: RAM</h2>
+				<p>
+					<strong class="blue">RAM</strong> is like our working memory.
+				</p>
+				<img class="fragment" src="images/slide-images/jenny.gif" style="height: 40vh" alt="Amy Poehler as Leslie Knope looking disgusted with herself.">
+
+				<aside class="notes">
+					In this way, RAM is quite a bit like working memory. If you meet someone and exchange telephone numbers, it’s likely that you’ll forget those 7-10 digits when you’re provided with additional distraction unless you make a conscious choice to memorize that
+					phone number. Meanwhile, Tommy Tutone has ensured that most people of a certain age remember Jenny’s phone number.
+				</aside>
+			</section>
+
+			<section>
+				<h2>How Computers Think: A Review</h2>
 				<ul>
-					<li>K.C. Jones-Evans</li>
-					<li>Kevin Jones-Evans</li>
-					<!--<li>Bullet Point</li>
-					<li>Twitter: <a href="http://twitter.com/[TWITTER]">@[TWITTER]</a></li>
-					<li>E-mail: <a href="mailto:[EMAIL]">[EMAIL]</a></li>-->
+					<li><strong class="blue">ROM</strong> handles data that's essential for device operation</li>
+					<li><strong class="blue">Hard Drive</strong> handles hardwritten, saved data.</li>
+					<li><strong class="blue">RAM</strong> handles data your computer is using.</li>
+				</ul>
+			</section>
+
+
+			<!-- How Computers Think -->
+
+			<section>
+				<h2>How Computers Think</h2>
+				<img src="images/slide-images/computerspecs.jpg" alt="An example of a computer listing with specifications.">
+
+				<aside class="notes">
+					Another side benefit of this course I forgot to mention is that a little bit of the mystery can be taken out of computer specs. Can anyone parse what the highlighted items indicate? There is a caveat, being that colloquially, “memory” refers to RAM. Nowadays,
+					16GB can be a sad amount of hard drive memory, but a pretty kickass amount of RAM.
+				</aside>
+			</section>
+
+			<section>
+				<!-- How We Talk to Computers -->
+				<h1>How Do We Talk To Computers?</h1>
+			</section>
+
+			<section>
+				<!-- The Evolution of Programming Languages -->
+				<h2>The Evolution of Programming Languages</h2>
+				<ul>
+					<li><strong class="blue">First Generation</strong>: Machine Code</li>
+					<li><strong class="blue">Second Generation (1949)</strong>: Assembly Code</li>
+					<li><strong class="blue">Third Generation (Late 1950s)</strong>: High-Level Language</li>
+					<li><strong class="blue">Fourth Generation (1980s)</strong>: Even Higher-Level Language</li>
 				</ul>
 			</section>
 
 			<section>
-				<h3>Computer Programs</h3>
-				<ul>
-					<li>Computer programs are everywhere.</li>
-					<ul>
-						<li>Run parts of your car.</li>
-						<li>Let you check your email.</li>
-						<li>Underlie that favorite app on your smartphone.</li>
+				<!-- First Generation Programming Languages -->
+				<h2>How We Talk To Computers:<br> The First Generation</h2>
+				<p>
+					<strong class='blue'>Machine code</strong>, is the straight-up use of binary as a means of programming.
+				</p>
+				<img class="noborder" src="images/slide-images/cuteputers_chatty.svg" style="height: 50vh" alt="A computer saying hello in binary.">
+
+				<aside class="notes">
+					When digital computers actually started being made, they ultimately could only be spoken to electronically in a series of zeros and ones — binary — and telling them what to do could only really be accomplished by feeding them punched film or paper or
+					manually adjusting plugs or switches.
+				</aside>
+			</section>
+
+			<section>
+				<!-- First Generation Programming Languages -->
+				<h2>How We Talk To Computers:<br> The First Generation</h2>
+				<img src="images/slide-images/colossus.png" style="height: 60vh" alt="Photo of two programmers next to the Colossus at Bletchley Park" />
+
+				<aside class="notes">
+					If this sounds like a pain, it’s because it was — a series of zeroes and ones are very far from being immediately meaningful to anyone but computers, who would happily chug away on them.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Second Generation Programming Languages -->
+				<h2>How We Talk To Computers: <br>The Second Generation</h2>
+				<p>
+					<img src="images/slide-images/assemblycode.gif" alt="A screencap of some gnarly assembly code." />
+				</p>
+				<aside class="notes">
+					The first response to machine code was assembly code. These languages made use of a program called an assembler that assigned chunks of zeros and ones that had specific purposes to symbolic names.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Second Generation Programming Languages -->
+				<h2>How We Talk To Computers: <br>The Second Generation</h2>
+				<p>
+					<strong class='blue'>Assembly code</strong> is code that uses chunks of text as symbols for specific processes.
+				</p>
+
+				<aside class="notes">
+					Assembly code… looks vaguely better than a sweep of binary. It was more user-friendly in this respect, but a big problem with assembly languages is that they’re incredibly specific — in that they only work on a single type of computer. Which sounds like
+					a bummer, but when the number of extant computers was in the low double-digits, there wasn't too much pressure.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Enter the Compiler -->
+				<img src="images/slide-images/thisisfine.jpg" />
+				<!-- A picture of a cartoon dog in a burning house staying put and
+						saying "This is fine." -->
+				<aside class="notes">
+					For some, this was close enough. As much as they could hope for. And besides, no big deal, computers are just glorified calculators that work really, really fast, right? ... until someone came along who looked at this nonsense and thought "No. This is
+					not fine. This is ridiculous."
+				</aside>
+			</section>
+
+			<section>
+				<!-- Enter the Compiler: Grace Hopper -->
+				<img src="images/slide-images/gracehopper.jpg" alt="A portrait of Grace Hopper" />
+				<p>
+					<small><i>Our Lady of Code Compilation, <strong class="blue">Grace Hopper</strong></i></small>
+				</p>
+				<aside class="notes">
+					This person was Grace Hopper, who, after absolutely crushing it in the Navy during WWII writing programs used on the US's ships, proceeded to absolutely crush it in the private sector and in 1952 wrote the first compiler — a computer program that would
+					convert honest-to-goodness text, not alphabet soup, into binary that any computer could read.
+				</aside>
+			</section>
+
+			<section data-background="images/slide-images/mindblown.gif">
+				<!-- Dude dressed as Carl Sagan Cosmos-style getting his mind blown. -->
+				<aside class="notes">
+					This floored her coworkers, but once they were convinced that the compiler didn't bite, it precipitated the next wave of programming languages...
+				</aside>
+			</section>
+
+			<section>
+				<!-- Third Generation Programming Languages -->
+				<h2>How We Talk To Computers: <br>The Third Generation</h2>
+				<p>
+					<strong class='blue'>Third-generation languages </strong> are languages that machine-independent and whose syntax is abstracted and reads in a much more human fashion.
+				</p>
+				<aside class="notes">
+					Third-generation programming languages, machine-independent, abstracted further away from the computer and sounding much more human. These are often referred to as high-level programming languages. For the sake of comparison, here's a 'hello world' program
+					written in Assembly for Linux...
+				</aside>
+			</section>
+
+			<section>
+				<!-- Third Generation Programming Languages // Before -->
+				<h2>Before with Assembly</h2>
+				<pre><code contenteditable="assembly" style="font-size: 1rem; line-height: 1.3;">section     .text
+global      _start               		;must be declared for linker (ld)
+
+_start:                          		;tell linker entry point
+
+mov     edx,len              		;message length
+mov     ecx,msg              		;message to write
+mov     ebx,1                		;file descriptor (stdout)
+mov     eax,4                		;system call number (sys_write)
+int     0x80                 		;call kernel
+
+mov     eax,1                		;system call number (sys_exit)
+int     0x80                 		;call kernel
+
+section     .data
+
+msg     db  'Hello, world!',0xa  ;our dear string
+len     equ $ - msg              ;length of our dear string
+				</code></pre>
+				<p><small><i>A touch of Assembly.</i></small></p>
+
+				<aside class="notes">
+					... and here's a 'hello world' program written in one of the first third-gen languages COBOL.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Third Generation Programming Languages // After -->
+				<h2>After!</h2>
+				<pre><code contenteditable="cobol">IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLOWORLD.
+PROCEDURE DIVISION.
+MAIN.
+DISPLAY 'Hello, world.'.
+STOP RUN.</code></pre>
+				<p><small><i>A touch of COBOL.</i></small></p>
+				<aside class="notes">
+					... see? Feels so much better and airier already!
+				</aside>
+			</section>
+
+			<section>
+				<!-- Third Generation Programming Languages-->
+				<h2>How We Talk To Computers: <br>The Third Generation</h2>
+				<div class="halfblock">
+					<strong style="text-align: right; display: block; padding-right: 30px;" class='green'>Examples: </strong>
+				</div>
+				<div class="halfblock">
+					<ul style="float: left;">
+						<li>COBOL</li>
+						<li>FORTRAN</li>
+						<li>BASIC</li>
+						<li>C</li>
 					</ul>
-					<li> But what are they, really?</li>
-					<ul/>
-			</section>
-			<section>
-				<h3>What is a Computer Program?</h3>
-				<ul>
-					<li>At its core, a computer program is a way of getting something done.</li>
-				</ul>
+				</div>
+
+				<aside class="notes">
+					This precipitated the creation of a number of languages, some getting more traction than others. Assembly is still used for programs that work closely with hardware and need the device specificity and control, but for programs that humans needed to program
+					and interact with, high-level languages were the way to go.
+				</aside>
 			</section>
 
 			<section>
-				<h3>Programming Languages</h3>
-				<ul>
-					<li>A programming language is basically a set of strings (letters, numbers, commands) that is changed into machine code that the computer can understand.</li>
-				</ul>
+				<!-- Fourth Generation Programming Languages-->
+				<h2>How We Talk To Computers: <br>The Fourth Generation</h2>
+				<div class="halfblock">
+					<strong style="text-align: right; display: block; padding-right: 30px;" class='green'>Examples: </strong>
+				</div>
+				<div class="halfblock">
+					<ul style="float: left;">
+						<li>Java</li>
+						<li>Python</li>
+						<li>Ruby</li>
+						<li>MySQL + PostgresSQL</li>
+					</ul>
+				</div>
+
+				<aside class="notes">
+					While there's not a super-distinct boundary between the third and fourth generations, there were definite developments in how programs handled stored data and also in avenues for code use — namely, the emergence of the internet. But by this time, there's
+					a clear interest in making languages as clear as possible to programmers, which is very nicely summed up in the philosophy of the creator of Ruby, Yukihiro "Matz" Matsumoto. (slide advance)
+				</aside>
 			</section>
 
 			<section>
-				<h3>Programming Languages</h3>
-				<!--<p>For example:</p>-->
-				<ul>
-					<li>To develop websites, you might use HTML, JavaScript, Python, Java, PHP.</li>
-					<li>To create databases and move information in and out of them, you might use MySQL, SQL, Dbase.</li>
-					<li>To write applications like Microsoft Word or Adobe Acrobat, you might use C++, Java, Visual Basic</li>
-				</ul>
+				<!-- Fourth Generation Programming Languages-->
+				<img src="images/slide-images/ruby.jpeg" style="height: 40vh" alt="A Ruby icon.">
+				<blockquote>I want to see Ruby help <br>every programmer in the world <br>to be productive, and to enjoy programming, and to be happy.</blockquote>
+				<p><small>&mdash; Yukihiro "Matz" Matsumoto</small></p>
+
+				<aside class="notes">
+					... which, as far as goals go, is both noble and adorable.
+				</aside>
 			</section>
 
 			<section>
-				<h3>Important to Remember</h3>
-				<ul>
-					<li>One of the most important things to remember is that when programming, you are doing something for people, and that the computer and the program mediate that. <a href="http://www.developsense.com" target- "_blank">~Michael Bolton</a> (Software Tester
-						extraordinaire)</li>
-				</ul>
+				<!-- Fourth Generation Programming Languages-->
+				<h2>How We Talk To Computers: <br>The Fourth Generation</h2>
+				<pre><code contenteditable="ruby">puts 'Hello, world!'</code></pre>
+				<small><i>A touch of Ruby.</i></small>
+
+				<aside class="notes">
+					... and now most programming languages getting play nowadays look more like this.
+				</aside>
 			</section>
 
 			<section>
-				<h3>Computers are dumb</h3>
-				<ul>
-					<li>Computers can only do what they have instructions for-- and they take those instructions VERY literally.</li>
-				</ul>
+				<!-- Programming Languages: Review -->
+				<h1>To review...</h1>
+
+				<aside class="notes">
+					And now to review, we're going to look at all of these generations. again, all performing a popular fist program — writing the text "Hello World." to the screen.
+				</aside>
 			</section>
+
+			<section>
+				<!-- Programming Languages: Review -->
+				<h2>First Generation</h2>
+				<pre><code contenteditable="binary">011010000110010101101100011011000110111100100000011101110110111101110</code></pre>
+				<p><small><i>"Hello World" in binary.</i></small></p>
+
+				<aside class="notes">
+					This binary slide is kind of a fake-out. This is just the characters for "Hello World" converted into their binary equivalents, this piece of code wouldn't get anything to render on the screen.
+				</aside>
+			</section>
+
+			<section>
+				<!-- Programming Languages: Review -->
+				<h2>Second Generation</h2>
+				<pre><code contenteditable="assembly" style="font-size: 0.6em; line-height: 1.3;">section     .text
+global      _start               		;must be declared for linker (ld)
+
+_start:                          		;tell linker entry point
+
+mov     edx,len              		;message length
+mov     ecx,msg              		;message to write
+mov     ebx,1                		;file descriptor (stdout)
+mov     eax,4                		;system call number (sys_write)
+int     0x80                 		;call kernel
+
+mov     eax,1                		;system call number (sys_exit)
+int     0x80                 		;call kernel
+
+section     .data
+
+msg     db  'Hello, world!',0xa  ;our dear string
+len     equ $ - msg              ;length of our dear string
+				</code></pre>
+				<p><small><i>"Hello World" in Assembly.</i></small></p>
+			</section>
+
+			<section>
+				<!-- Programming Languages: Review -->
+				<h2>Third Generation</h2>
+				<pre><code contenteditable="cobol">IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLOWORLD.
+PROCEDURE DIVISION.
+MAIN.
+DISPLAY 'Hello, world.'.
+STOP RUN.</code></pre>
+				<p><small><i>"Hello World" in COBOL.</i></small></p>
+			</section>
+
+			<section>
+				<!-- Programming Languages: Review -->
+				<h2>Fourth Generation</h2>
+				<pre><code contenteditable="ruby">puts 'Hello, world!'</code></pre>
+				<small><i>"Hello World" in Ruby.</i></small>
+			</section>
+
+			<section>
+				<!-- How To Talk to Computers -->
+				<h1>Learning To Talk To Computers</h1>
+
+				<aside class="notes">
+					Now, we start to get to the fun part, where we start talking to computers. However... there are some things to be aware of.
+				</aside>
+			</section>
+
+			<section>
+				<!-- How To Talk to Computers: Computers are kind of dumb. -->
+				<h2>Learning To Talk To Computers</h2>
+				<p class="fragment">
+					The best thing about computers is that they <br>will do <strong>exactly</strong> what you tell them to do.
+				</p>
+				<p class="fragment">
+					The worst thing about computers is that they<br> will do <strong>exactly</strong> what you tell them to do.
+				</p>
+
+				<aside class="notes">
+					While programming languages have gotten easier to read and write, what we ask the computer to do will ultimately be taken by the compiler and converted into a series of zeros and ones. It is said that the best thing about computers is that they will do
+					exactly what you tell them to do. It’s also said that the worst thing about computers is that they do exactly what you tell them to do.
+				</aside>
+			</section>
+
+
+			<section>
+				<h2>Learning to Talk to Computers</h2>
+				<h3>Computers are dumb.</h3>
+				<ul>
+					<li>Computers can only do what they are instructed to do <span class="fragment">and they take those instructions VERY literally.</span> </li>
+				</ul>
+				<img class="fragment" src="images/slide-images/inputandoutput.png" style="border:none;background: 0; box-shadow: none;" />
+			</section>
+
+
 
 			<section>
 				<h3>Demonstration</h3>
+				<!--Demo how giving exact instructions is really important! -->
+				<img src="images/sudosandwich.png" />
 			</section>
 
-			<section>
-				<h3>Memory</h3>
-				<ul>
-					<li>A computer doesn’t have a memory like we do. Sure, a computer has “memory”-- In fact it has a couple of kinds...</li>
-				</ul>
-			</section>
 
-			<section>
-				<h3>Kinds of Memory - ROM</h3>
+			<!--section>
+				<h3>Computer Memory</h3>
 				<ul>
 					<li><b>ROM</b> or <b>Read-only memory</b> is the more permanent kind.</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Kinds of Memory - Storage</h3>
-				<ul>
-					<li>More permanent, more long term memory.</li>
-					<ul>
-			</section>
-
-			<section>
-				<h3>Kinds of Memory - RAM</h3>
-				<ul>
 					<li><b>RAM</b> or <b>Random-access memory</b> is less permanent.</li>
+				</br>
+					<li class="fragment">If the computer had a brain, ROM would be the long term memory and RAM would be the short term memory.</li>
 				</ul>
+
+			</section-->
+			<section>
+				<!-- Time to get into coding! -->
+				<h1>Let's Talk To Computers!</h1>
+				<aside class="notes">
+					So, all that being said... it is now time to get computers to do our bidding.
+				</aside>
 			</section>
 
 			<section>
-				<h3>Programming structures</h3>
-				<ul>
-					<li>No matter what programming language you use, the structures that are available are fairly similar.</li>
-					<ul>
-						<li>Variables</li>
-						<li>Logical structures:</li>
-						<ul>
-							<li>If/Else statements</li>
-							<li>Loops</li>
-						</ul>
-					</ul>
-				</ul>
+				<!-- Concepts: Overview -->
+
+				<h2>Let's Talk To Computers: Concepts</h2>
+				<h3>5 Concepts of every Language</h3>
+				<ol>
+					<li>
+						Variables
+					</li>
+					<li>
+						Control Structures
+					</li>
+					<li>
+						Data Structures *
+					</li>
+					<li>
+						Syntax *
+					</li>
+					<li>
+						Tools *
+					</li>
+				</ol>
+				</br>
+
+			</section>
+
+			<section> <!-- Let's meet the console. -->
+				<h2>Let's Meet the Terminal!</h2>
+				<p>
+					The <strong class="blue">terminal</strong> is a tool where we
+					run chunks of code and test them to make sure that it's behaving in
+					the way we want it to.
+				</p>
+				<p>
+					For this course, we'll be making use of an online terminal named <a href="https://repl.it">repl.it</a>.
+				</p>
+				<p>
+					<a href="https://repl.it/classroom/invite/e7JIQC">GDI Dayton Intro To Programming Concepts Variables and If/Then/Else</a> <br />
+				</p>
+
+				<aside class="notes">
+					But before we get started, let's meet the terminal! The terminal is
+					a space where we can run chunks of code and test them to make sure
+					that it's behaving predictably.
+
+					Open up the variables assignment
+
+					As I alluded to earlier, we'll be sampling from Ruby, Python, and JavaScript,
+					but for this initial portion, we'll be using JavaScript, which
+					Taylor is going to be running the Intro class for next Wednesday.
+				</aside>
 			</section>
 
 			<section>
@@ -185,19 +809,36 @@
 				<ul>
 					<li>A variable is essentially a storage container for information.</li>
 					<li>Examples:</li>
-					<ul>
-						<li>age = 28</li>
-						<li>color = blue</li>
-					</ul>
+					<pre><code>
+age = 28
+color = "blue"
+					</code></pre>
 					<li>There are different kinds of variables based on the information that you want to store.</li>
 				</ul>
+				<aside class="notes">
+					Some of of you may remember variables from algebra — but if any of
+					you have some post-traumatic stress from this time, fear not —
+					there's no need to solve for anything, variables are our friends,
+					and they help us store information that we can access later in our
+					code. The computer will be manipulating all of your variables,
+					you will just be telling it how.
+
+					There are a few different types of information that can be stored
+					as variables — some of which are numbers, strings, and booleans.
+					The variables in the code chunk above are strings.
+				</aside>
+
 			</section>
 
 			<section>
-				<h3>Integer Variables</h3>
+				<h3>Number Variables</h3>
 				<ul>
-					<li>Integer variables are used to store positive or negative whole numbers.</li>
+					<li>Number or integer variables are used to store positive or negative whole numbers.</li>
 				</ul>
+				<pre><code>
+age = 28
+year = 2016
+				</code></pre>
 			</section>
 
 			<section>
@@ -205,6 +846,10 @@
 				<ul>
 					<li>String variables are used to store text.</li>
 				</ul>
+				<pre><code>
+name = "K.C. Jones-Evans"
+myString = 'Hello World'
+				</code></pre>
 			</section>
 
 			<section>
@@ -213,6 +858,10 @@
 					<li>You <b>can</b> store a number as a string variable.</li>
 					<li>If you store a number as a string variable, you can’t use it in any math calculations.</li>
 				</ul>
+				<pre><code>
+age = "28"
+year = '2016'
+				</code></pre>
 			</section>
 
 			<section>
@@ -220,58 +869,101 @@
 				<ul>
 					<li>Boolean variables are used to store the value <b>TRUE</b> or <b>FALSE</b> (yes or no).</li>
 				</ul>
+				<pre><code>
+am_i_a_cat = false
+areMyEyesGreen = true
+				</code></pre>
 			</section>
 
+
 			<section>
-				<h3>Logical structures</h3>
+				<h3>Control Structures</h3>
 				<ul>
 					<li>Now that you can store data, you probably want to do something with it.</li>
+					<ul> There are two groups of control structures:
+						<li>If/Else statements</li>
+						<li>Loops</li>
+					</ul>
 				</ul>
 			</section>
 
-			<section>
-				<h3>Operators</h3>
-				<ul>
-					<li>Operators are words or symbols that let you compare, combine, or evaulate something to produce an output.</li>
 
-					<li>A few xamples:
-						<ul>
-							<li>= (equal to)</li>
-							<li>> (greater than)</li>
-							<li>
-								< (less than)</li>
-									<li>>= (greater than or equal to)</li>
-									<li>
-										<=( less than or equal to)</li>
-											<li>!= (not equal)</li>
-											<li>and</li>
-											<li>or</li>
-						</ul>
-				</ul>
-			</section>
 
 			<section>
 				<h3>If/Then/Else</h3>
 				<ul>
 					<li>If/Then/Else statements evaluate a condition and take actions based on the result.</li>
 				</ul>
+				<pre class="fragment">
+						<code>
+if MY_CONDITIONS then DO_ALL_THE_THINGS
+else DO_SOMETHING_ELSE_ENTIRELY
+						</code>
+					</pre>
 			</section>
 
 			<section>
-				<h3>Let's Do Some If/Then/Else! (1/4)</h3>
-			</section>
-
-			<section>
-				<h3>If/Then/Else Excercises (2/4)</h3>
+				<h3>Operators on Variables</h3>
 				<ul>
-					<li>For this excercise, we're using <b>Ruby</b>.</li>
-					<li>Go to <a href="http://repl.it/languages" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
-					<li>Choose 'Ruby'.</li>
+					<li>Operators are words or symbols that let you compare, combine, or evaulate input or varaibles to produce an output.</li>
+
+					<li>A few xamples:
+						<table class="box copy--small">
+							<tr>
+								<td width="200"><code>a == b</code></td>
+								<td>a is equal to b</td>
+							</tr>
+							<tr>
+								<td><code>a != b</code></td>
+								<td>a does not equal b</td>
+							</tr>
+							<tr>
+								<td><code>a &lt; b</code></td>
+								<td>a is less than b</td>
+							</tr>
+							<tr>
+								<td><code>a &gt; b</code></td>
+								<td>a is greater than b</td>
+							</tr>
+							<tr>
+								<td><code>a &lt;= b</code></td>
+								<td>a is less than or equal to b</td>
+							</tr>
+							<tr>
+								<td><code>a &gt;= b</code></td>
+								<td>a is greater than or equal to b</td>
+							</tr>
+							<tr>
+								<td><code>a and b</code></td>
+								<td>a and b together!</td>
+							</tr>
+							<tr>
+								<td><code>a or b</code></td>
+								<td>a or b</td>
+							</tr>
+						</table>
 				</ul>
 			</section>
 
 			<section>
-				<h3>IF Excercise (3/4)</h3>
+				<h3>Let's Do Some If/Then/Else!</h3>
+				<p>
+					Thinking of our instructions demonstration...
+				</p>
+			</section>
+
+			<section>
+				<h3>If/Then/Else Exercise</h3>
+				<ul>
+					<li>For this excercise, we're using <b>Ruby</b>.</li>
+					<li>Go to <a href="https://repl.it/student/classrooms/2398" target="_blank">GDI Dayton Intro To Programming Concepts Variables and If/Then/Else</a>
+					</li>
+
+				</ul>
+			</section>
+
+			<section>
+				<h3>IF Exercise 1</h3>
 				<pre><code="html">
 cart_total = 8
 
@@ -286,7 +978,7 @@ end
 			</section>
 
 			<section>
-				<h3>IF/THEN/ELSE Excercise (4/4)</h3>
+				<h3>IF/THEN/ELSE Exercise 2</h3>
 				<pre><code="html">
 cart_total = 8
 
@@ -307,24 +999,31 @@ end
 				<h3>Loops</h3>
 				<ul>
 					<li>A loop is a list of instructions that repeats until a certain condition is reached.</li>
+					<li>
+						There are while loops, do-while loops, and for-each loops.
+					</li>
 				</ul>
+				<div class="fragment">
+					<img class="right" src="images/ourcake.png" style="width: 29%;margin-left: 0px;" />
+					<img class="left" src="images/weddingcake.jpg" style="width: 65%;margin-right: 0px;" />
+				</div>
 			</section>
 
 			<section>
-				<h3>Let's Do Some Loops! (1/4)</h3>
+				<h3>Let's Do Some Loops!</h3>
 			</section>
 
 			<section>
-				<h3>Loop Excercise (2/4)</h3>
+				<h3>Loop Excercise</h3>
 				<ul>
 					<li>For this excercise, we're using Python.</li>
-					<li>Go to <a href="http://repl.it/languages" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
-					<li>Choose 'Python'.</li>
+					<li>Go to <a href="https://repl.it/classroom/invite/e8MGqF" target="_blank">GDI Dayton Intro To Programming Concepts Loops</a> </li>
+
 				</ul>
 			</section>
 
 			<section>
-				<h3>Loop (while) Excercise (3/4)</h3>
+				<h3>Loop (while) Excercise </h3>
 				<pre><code="html">
 papers_to_deliver = 65
 
@@ -342,7 +1041,7 @@ print 'Out of papers! Go home!';
 			</section>
 
 			<section>
-				<img src="images/loop-illustration.png" />
+				<img src="images/loop-illustration.png" style="background-color:white" />
 			</section>
 
 			<section>
@@ -357,7 +1056,103 @@ print 'Out of papers! Go home!';
 				</ul>
 			</section>
 
+
 			<section>
+				<h3>Data Structures</h3>
+				<ul>
+					<li>
+						A data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
+					</li>
+					<li class="fragment">
+						Having data structures provides two key things:
+						<ol>
+							<li>
+								Keeps us from repeating code
+							</li>
+							<li>
+								Allows us to keep the code flexible
+							</li>
+						</ol>
+					</li>
+					<li class="fragment">
+						In essence, a data structure is just a way to get around having to create tons of variables.
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Data Structures Exercise </h3>
+				<ul>
+					<li>For this excercise, we're using Java.</li>
+					<li>Go to <a href="https://repl.it/classroom/invite/e9PF0I" target="_blank">GDI Dayton Intro To Programming Concepts Data Structures</a> </li>
+
+				</ul>
+			</section>
+
+			<section>
+				<h3>Data Structures Exercise (1/2)</h3>
+				<ul>
+					<li class="fragment">If we need to store 10 contacts, we would probably define 10 variables, right?
+					<pre>
+						<code>
+String contact1, contact2, contact3, contact4, contact5, contact6, contact7, contact8, contact9, contact10;
+contact1 = "John Smith (john.smith@someCompany.com)";
+contact2 = "Jane Smith (jane.smith@someCompany.com)";
+contact3 = //... etc.
+						</code>
+					</pre>
+					</li>
+					<h3 class="fragment">Data Structures Exercise (2/2)</h3>
+					<li class="fragment">
+						Instead we are going to use Java's data structure ArrayList
+						<pre>
+							<code>
+List contacts = new ArrayList();
+
+contacts.add("John Smith (john.smith@someCompany.com)");
+contacts.add("Jane Smith (jane.smith@someCompany.com)");
+							</code>
+						</pre>
+					</li>
+
+				</ul>
+			</section>
+
+			<section>
+				<h3>Data Structures Continued</h3>
+				<ul>
+					<li>
+						Every language has it's own set of data structures, and their own unique way of organizing data.
+					</li>
+					<li>
+						There are so many types, that we can't cover them all!
+						<a href="https://en.wikipedia.org/wiki/List_of_data_structures">List Of Data Structures</a>
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Syntax and Tools</h3>
+				<ul>
+					<li>
+						The <b>Syntax</b> of a programming language is the set of rules that define the combinations of symbols that are considered to be correctly structured programs in that language.
+					</li>
+					<li class="fragment">
+						Programming Tools:
+						<ul>
+							<li class="fragment">
+								The IDE, Intergrated Development Environment
+							</li>
+							<li class="fragment">
+								The developer community!
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+
+
+			<!--section>
 				<h3>Project Implementation <br> Example</h3>
 				<ul>
 					<li>When companies implement a new program, they take various things into consideration:</li>
@@ -376,7 +1171,7 @@ print 'Out of papers! Go home!';
 							<li>Loops: Instructions that keeps repeating as neccessary.</li>
 						</ul>
 				</ol>
-			</section>
+			</section -->
 
 			<section>
 				<h3>Coding Classes Resources (most are free) and Books</h3>
