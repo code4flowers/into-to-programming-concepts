@@ -128,13 +128,13 @@
 					In this workshop, we'll be sampling from a number of topics,
 					<ol>
 						<li>
-							starting with running through the history of how computers as we understand them today came to be,
+							(History) starting with running through the history of how computers as we understand them today came to be,
 						</li>
 						<li>
-							how computers think, and how the way humans talk to computers has changed.
+							(Think) how computers think, and how the way humans talk (Languages) to computers has changed.
 						</li>
 						<li>
-							Then we'll dig into some top-level programming concepts to lay a nice foundation for your further forays into programming.
+							(Concepts)Then we'll dig into some top-level programming concepts to lay a nice foundation for your further forays into programming.
 						</li>
 						<li>
 							By the end of this workshop, you will also have dabbled in Java, Python, and Ruby, and have an enhanced understanding of many programming jokes.
@@ -172,9 +172,14 @@
 				</p>
 
 				<aside class="notes">
-					People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms. However, these technologies only went so far in that they had singular purposes
-					and their scope was limited by the space they occupied, and as the Industrial Revolution kicked up and global trade started to expand, it became more imperative to get engineers and navigators the appropriate tables of equations so they could do
-					their jobs well. These were difficult to reproduce accurately, and folks were feeling the pain. In classic infomercial style, THERE HAS TO BE A BETTER A BETTER WAY.
+					People have been using tools with varying levels of complexity to make math easier for years,
+					<br/>from abacuses for basic math to slide rules for trigonometry for logorithms.
+					<br />However, these technologies only went so far in that they had singular purposes
+					<br />and their scope was limited by the space they occupied,
+					<br />and as the Industrial Revolution kicked up and global trade started to expand,
+					<br />it became more imperative to get engineers and navigators the appropriate tables of equations so they could do their jobs well.
+					<br />These math tables were difficult to reproduce accurately, and folks were feeling the pain.
+					<br />In classic infomercial style, THERE HAS TO BE A BETTER A BETTER WAY.
 				</aside>
 			</section>
 
@@ -689,14 +694,9 @@ STOP RUN.</code></pre>
 				<small><i>"Hello World" in Ruby.</i></small>
 			</section>
 
-			<section>
-				<!-- How To Talk to Computers -->
-				<h1>Learning To Talk To Computers</h1>
 
-				<aside class="notes">
-					Now, we start to get to the fun part, where we start talking to computers. However... there are some things to be aware of.
-				</aside>
-			</section>
+			<!-- How To Talk to Computers -->
+
 
 			<section>
 				<!-- How To Talk to Computers: Computers are kind of dumb. -->
@@ -707,22 +707,14 @@ STOP RUN.</code></pre>
 				<p class="fragment">
 					The worst thing about computers is that they<br> will do <strong>exactly</strong> what you tell them to do.
 				</p>
-
 				<aside class="notes">
-					While programming languages have gotten easier to read and write, what we ask the computer to do will ultimately be taken by the compiler and converted into a series of zeros and ones. It is said that the best thing about computers is that they will do
-					exactly what you tell them to do. It’s also said that the worst thing about computers is that they do exactly what you tell them to do.
+					Now, we start to get to the fun part, where we start talking to computers. However... there are some things to be aware of. While programming languages have gotten easier to read and write, what we ask the computer to do will ultimately be taken by the
+					compiler and converted into a series of zeros and ones. It is said that the best thing about computers is that they will do exactly what you tell them to do. It’s also said that the worst thing about computers is that they do exactly what you tell
+					them to do.
 				</aside>
 			</section>
 
 
-			<section>
-				<h2>Learning to Talk to Computers</h2>
-				<h3>Computers are dumb.</h3>
-				<ul>
-					<li>Computers can only do what they are instructed to do <span class="fragment">and they take those instructions VERY literally.</span> </li>
-				</ul>
-				<img class="fragment" src="images/slide-images/inputandoutput.png" style="border:none;background: 0; box-shadow: none;" />
-			</section>
 
 
 
@@ -758,6 +750,12 @@ STOP RUN.</code></pre>
 				<h3>5 Concepts of every Language</h3>
 				<ol>
 					<li>
+						Tools *
+					</li>
+					<li>
+						Syntax *
+					</li>
+					<li>
 						Variables
 					</li>
 					<li>
@@ -766,23 +764,33 @@ STOP RUN.</code></pre>
 					<li>
 						Data Structures *
 					</li>
-					<li>
-						Syntax *
-					</li>
-					<li>
-						Tools *
-					</li>
+
 				</ol>
 				</br>
 
 			</section>
 
-			<section> <!-- Let's meet the console. -->
-				<h2>Let's Meet the Terminal!</h2>
+			<section>
+				<!-- Let's meet the console. -->
+				<h2>Tools</h2>
+				<ul>
+					<li class="fragment">
+						Terminal or command line
+					</li>
+					<li class="fragment">
+						The IDE, Intergrated Development Environment
+					</li>
+
+					<li class="fragment">
+						The developer community!
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Let's Meet the Terminal!</h3>
 				<p>
-					The <strong class="blue">terminal</strong> is a tool where we
-					run chunks of code and test them to make sure that it's behaving in
-					the way we want it to.
+					The <strong class="blue">terminal</strong> is a tool where we run chunks of code and test them to make sure that it's behaving in the way we want it to.
 				</p>
 				<p>
 					For this course, we'll be making use of an online terminal named <a href="https://repl.it" target="_blank">repl.it</a>.
@@ -792,22 +800,28 @@ STOP RUN.</code></pre>
 				</p>
 
 				<aside class="notes">
-					But before we get started, let's meet the terminal! The terminal is
-					a space where we can run chunks of code and test them to make sure
-					that it's behaving predictably.
-
-					Open up the variables assignment
-
-					As I alluded to earlier, we'll be sampling from Ruby, Python, and JavaScript,
-					but for this initial portion, we'll be using JavaScript, which
-					Taylor is going to be running the Intro class for next Wednesday.
+					But before we get started, let's meet the terminal! The terminal is a space where we can run chunks of code and test them to make sure that it's behaving predictably. Open up the variables assignment As I alluded to earlier, we'll be sampling from Ruby,
+					Python, and JavaScript, but for this initial portion, we'll be using JavaScript, which Taylor is going to be running the Intro class for next Wednesday.
 				</aside>
+			</section>
+
+			<section>
+				<h3>Syntax</h3>
+				<p>
+
+					The <b>Syntax</b> of a programming language is the set of rules that define the combinations of symbols that are considered to be correctly structured programs in that language.
+
+				</p>
+				<aside class="notes">
+					This is what makes each lanugae unique
+				</aside>
+
 			</section>
 
 			<section>
 				<h3>Variables</h3>
 				<ul>
-					<li>A variable is essentially a storage container for information.</li>
+					<li>A variable is a storage container for information.</li>
 					<li>Examples:</li>
 					<pre><code>
 age = 28
@@ -816,16 +830,9 @@ color = "blue"
 					<li>There are different kinds of variables based on the information that you want to store.</li>
 				</ul>
 				<aside class="notes">
-					Some of of you may remember variables from algebra — but if any of
-					you have some post-traumatic stress from this time, fear not —
-					there's no need to solve for anything, variables are our friends,
-					and they help us store information that we can access later in our
-					code. The computer will be manipulating all of your variables,
-					you will just be telling it how.
-
-					There are a few different types of information that can be stored
-					as variables — some of which are numbers, strings, and booleans.
-					The variables in the code chunk above are strings.
+					Some of of you may remember variables from algebra — but if any of you have some post-traumatic stress from this time, fear not — there's no need to solve for anything, variables are our friends, and they help us store information that we can access later
+					in our code. The computer will be manipulating all of your variables, you will just be telling it how. There are a few different types of information that can be stored as variables — some of which are numbers, strings, and booleans. The variables
+					in the code chunk above are strings.
 				</aside>
 
 			</section>
@@ -878,12 +885,17 @@ areMyEyesGreen = true
 
 			<section>
 				<h3>Control Structures</h3>
+
 				<ul>
 					<li>Now that you can store data, you probably want to do something with it.</li>
-					<ul> There are two groups of control structures:
-						<li>If/Else statements</li>
-						<li>Loops</li>
-					</ul>
+
+					<li>There are two groups of control structures:
+						<ul>
+							<li>If/Else statements</li>
+							<li>Loops</li>
+						</ul>
+					</li>
+
 				</ul>
 			</section>
 
@@ -897,17 +909,17 @@ areMyEyesGreen = true
 				<pre class="fragment">
 						<code>
 if MY_CONDITIONS then DO_ALL_THE_THINGS
-else DO_SOMETHING_ELSE_ENTIRELY
+else DO_SOMETHING_ELSE_ENTIRELY end
 						</code>
 					</pre>
 			</section>
 
 			<section>
-				<h3>Operators on Variables</h3>
+				<h3>Boolean Operators on Variables</h3>
 				<ul>
-					<li>Operators are words or symbols that let you compare, combine, or evaulate input or varaibles to produce an output.</li>
+					<li>Boolean Operators are words or symbols that let you compare, combine, or evaulate input or varaibles to produce an output.</li>
 
-					<li>A few xamples:
+					<li>A few examples:
 						<table class="box copy--small">
 							<tr>
 								<td width="200"><code>a == b</code></td>
@@ -955,7 +967,7 @@ else DO_SOMETHING_ELSE_ENTIRELY
 			<section>
 				<h3>If/Then/Else Exercise</h3>
 				<ul>
-					<li>For this excercise, we're using <b>Ruby</b>.</li>
+					<li>For this exercise, we're using <b>Ruby</b>.</li>
 					<li>Go to <a href="https://repl.it/student/classrooms/2398" target="_blank">GDI Dayton Intro To Programming Concepts Variables and If/Then/Else</a>
 					</li>
 
@@ -1092,8 +1104,8 @@ print 'Out of papers! Go home!';
 			<section>
 				<h3>Data Structures Exercise (1/2)</h3>
 				<ul>
-					<li class="fragment">If we need to store 10 contacts, we would probably define 10 variables, right?
-					<pre>
+					<li class="">If we need to store 10 contacts, we would probably define 10 variables, right?
+						<pre>
 						<code>
 String contact1, contact2, contact3, contact4, contact5, contact6, contact7, contact8, contact9, contact10;
 contact1 = "John Smith (john.smith@someCompany.com)";
@@ -1102,10 +1114,13 @@ contact3 = //... etc.
 						</code>
 					</pre>
 					</li>
-					<h3 class="fragment">Data Structures Exercise (2/2)</h3>
-					<li class="fragment">
-						Instead we are going to use Java's data structure ArrayList
-						<pre>
+			</section>
+
+			<section>
+				<h3 class="">Data Structures Exercise (2/2)</h3>
+				<li class="">
+					Instead we are going to use Java's data structure ArrayList
+					<pre>
 							<code>
 List contacts = new ArrayList();
 
@@ -1113,7 +1128,7 @@ contacts.add("John Smith (john.smith@someCompany.com)");
 contacts.add("Jane Smith (jane.smith@someCompany.com)");
 							</code>
 						</pre>
-					</li>
+				</li>
 
 				</ul>
 			</section>
@@ -1128,6 +1143,20 @@ contacts.add("Jane Smith (jane.smith@someCompany.com)");
 						There are so many types, that we can't cover them all!
 						<a href="https://en.wikipedia.org/wiki/List_of_data_structures">List Of Data Structures</a>
 					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Data Structures Continued</h3>
+				<h2>Using loops with data structures</h2>
+				<ul>
+					<li>
+						The most common way of getting at data once in a container like an ArrayList is using a loop.
+					</li>
+					<li class="fragment">
+						Let's check out the <a href="https://repl.it/teacher/assignments/3644">Data Structures and Loops Example</a>
+					</li>
+
 				</ul>
 			</section>
 
