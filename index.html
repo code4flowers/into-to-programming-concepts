@@ -43,7 +43,7 @@
 				<h3>Password: <span style="text-transform: none;">betterweb</span></h3>
 				<br />
 				<h3>Slides: <a style="text-transform: none;" href="http://bit.ly/gdi-dayton-intro-programming" target="_blank">bit.ly/gdi-dayton-intro-programming</a></h3>
-				<h3>Repl.it: <a style="text-transform: none;" href="https://repl.it/login" target="_blank">https://repl.it/login</a></h3>
+				<!-- <h3>Repl.it: <a style="text-transform: none;" href="https://repl.it/login" target="_blank">https://repl.it/login</a></h3> -->
 				<p>
 					While you wait for class to begin, get on the wifi, bring up the slides and make a free repl.it account.
 				</p>
@@ -107,8 +107,8 @@
 				<h2>Getting to Know You</h2>
 				<ol>
 					<li>What's your name?</li>
-					<li>What do you want to take from this class?</li>
-					<li>What's your fall beverage?</li>
+					<li>What do you do day to day?</li>
+					<li>If you were a vegetable, what vegetable would you be?</li>
 				</ol>
 			</section>
 
@@ -121,7 +121,7 @@
 					<li class="fragment">How Computers Think</li>
 					<li class="fragment">How Programming Languages Developed</li>
 					<li class="fragment">Basic Programming Concepts</li>
-					<li class="fragment">What Should I Do Next?</li>
+					<li class="fragment">"What Should I Do Next?"</li>
 				</ol>
 
 				<aside class="notes">
@@ -258,7 +258,7 @@
 				<h2>Computation: The Early Years</h2>
 
 				<img src="images/slide-images/colossus.png" style="height: 60vh" alt="Photo of two programmers next to the Colossus at Bletchley Park" />
-				<p><small><i>Programmers working with the Colossus, a Nat-zee code-breakin'<br> machine and one of the first digital computers.</i></small></p>
+				<p><small><i>Programmers working with the Colossus, a Nazi code-breakin'<br> machine and one of the first digital computers.</i></small></p>
 
 				<aside class="notes">
 					... the device, however, was just as large.
@@ -309,21 +309,20 @@
 			<section>
 				<h2>How Computers Think: ROM</h2>
 				<small>Cartridge-based video games are a small example of read-only memory.</small>
-				<img src="images/slide-images/rom-cartridge.png" alt="A dissected Game Boy game cartridge.">
+				<img src="images/slide-images/rom-cartridge.png" alt="A dissected Game Boy game cartridge." class="left">
+				<img src="images/slide-images/supermarioworld.gif" alt="A screenshot of Super Mario World." class="right" style="width: 500px;">
 
 				<aside class="notes">
-					In the arcade and early home gaming eras, games were printed as read-only memory onto chips and read directly and immediately by their computer systems. One of the pitfalls of writing data to ROM is that space is limited to what you can physically place
-					on the chips, which is why you don't see many cartridges in use nowadays.
+					<li>
+						In the arcade and early home gaming eras, games were printed as read-only memory onto chips and read directly and immediately by their computer systems. One of the pitfalls of writing data to ROM is that space is limited to what you can physically place
+						on the chips, which is why you don't see many cartridges in use nowadays.
+					</li>
+					<li>
+						It did, however, make these games run at a very snappy pace, which is why we may have had to suffer through replaying levels in older games, it wasn't paired with the indignity of having to sit through a loading screen like we do with games on discs.
+					</li>
 				</aside>
 			</section>
-			<section>
-				<h2>How Computers Think: ROM</h2>
-				<img src="images/slide-images/supermarioworld.gif" alt="A screenshot of Super Mario World.">
 
-				<aside class="notes">
-					It did, however, make these games run at a very snappy pace, which is why we may have had to suffer through replaying levels in older games, it wasn't paired with the indignity of having to sit through a loading screen like we do with games on discs.
-				</aside>
-			</section>
 			<section>
 				<h2>How Computers Think: ROM</h2>
 				<small><strong class="blue">Read-Only Memory</strong> functions similarly to the brainstem.</small>
@@ -382,7 +381,7 @@
 				</aside>
 			</section>
 
-			<section>
+			<!-- <section>
 				<h2>How Computers Think: RAM</h2>
 				<img src="images/slide-images/50firstdates.jpg" alt="Confused Drew Barrymore sitting next to Adam Sandler.">
 
@@ -390,10 +389,13 @@
 					Computers are very much like Drew Barrymore's character in 50 First Dates — doomed to lose any "new" memories whenever she loses consciousness. Both tragic, and a blessing in that, as far as she knows, Adam Sandler's filmography ends in the year 2003.
 					Fortunately, a lot of programs do some stealth-saving in the background and provide you with recovery files, but that pain and terror is a part of RAM.
 				</aside>
-			</section>
+			</section> -->
 
 			<section>
-				<h2>How Computers Think: RAM</h2>
+				<h2>How Computers Think: ROM v. RAM</h2>
+				<p>
+					<strong class="blue">ROM</strong> is like our long-term memory.
+				</p>
 				<p>
 					<strong class="blue">RAM</strong> is like our working memory.
 				</p>
@@ -712,9 +714,14 @@ STOP RUN.</code></pre>
 					The worst thing about computers is that they<br> will do <strong>exactly</strong> what you tell them to do.
 				</p>
 				<aside class="notes">
-					Now, we start to get to the fun part, where we start talking to computers. However... there are some things to be aware of. While programming languages have gotten easier to read and write, what we ask the computer to do will ultimately be taken by the
-					compiler and converted into a series of zeros and ones. It is said that the best thing about computers is that they will do exactly what you tell them to do. It’s also said that the worst thing about computers is that they do exactly what you tell
-					them to do.
+					<p>
+						<strong>STOP Here and demo with TA how exact instructions work</strong>
+					</p>
+					<p>
+						Now, we start to get to the fun part, where we start talking to computers. However... there are some things to be aware of. While programming languages have gotten easier to read and write, what we ask the computer to do will ultimately be taken by the
+						compiler and converted into a series of zeros and ones. It is said that the best thing about computers is that they will do exactly what you tell them to do. It’s also said that the worst thing about computers is that they do exactly what you tell
+						them to do.
+					</p>
 				</aside>
 			</section>
 
@@ -791,7 +798,7 @@ STOP RUN.</code></pre>
 				</ul>
 			</section>
 
-			<section>
+			<!-- <section>
 				<h3>Let's Meet the Terminal!</h3>
 				<p>
 					The <strong class="blue">terminal</strong> is a tool where we run chunks of code and test them to make sure that it's behaving in the way we want it to.
@@ -807,7 +814,7 @@ STOP RUN.</code></pre>
 					But before we get started, let's meet the terminal! The terminal is a space where we can run chunks of code and test them to make sure that it's behaving predictably. Open up the variables assignment As I alluded to earlier, we'll be sampling from Ruby,
 					Python, and JavaScript, but for this initial portion, we'll be using JavaScript, which Taylor is going to be running the Intro class for next Wednesday.
 				</aside>
-			</section>
+			</section> -->
 
 			<section>
 				<h3>Syntax</h3>
@@ -817,7 +824,7 @@ STOP RUN.</code></pre>
 
 				</p>
 				<aside class="notes">
-					This is what makes each lanugae unique
+					This is what makes each language unique
 				</aside>
 
 			</section>
@@ -886,6 +893,27 @@ areMyEyesGreen = true
 				</code></pre>
 			</section>
 
+			<section>
+				<h3>Our Sandwich Example as Variables</h3>
+				<ul>
+					<li class="fragment">
+						What could be a variable?
+					</li>
+					<li class="fragment">
+						What kind of variable will it be?
+					</li>
+				</ul>
+				<aside class="notes">
+					<p>
+						<strong>STOP HERE</strong>
+					</p>
+					<p>
+						Discuss this until the class seems to get the idea
+					</p>
+				</aside>
+
+			</section>
+
 
 			<section>
 				<h3>Control Structures</h3>
@@ -894,10 +922,10 @@ areMyEyesGreen = true
 					<li>Now that you can store data, you probably want to do something with it.</li>
 
 					<li>There are two groups of control structures:
-						<ul>
+						<ol>
 							<li>If/Else statements</li>
 							<li>Loops</li>
-						</ul>
+						</ol>
 					</li>
 
 				</ul>
@@ -962,13 +990,27 @@ else DO_SOMETHING_ELSE_ENTIRELY end
 			</section>
 
 			<section>
-				<h3>Let's Do Some If/Then/Else!</h3>
-				<p>
-					Thinking of our instructions demonstration...
-				</p>
+				<h3>Our Sandwich Example with If/Else</h3>
+				<ul>
+					<li class="fragment">
+						What conditions do we have?
+					</li>
+					<li class="fragment">
+						What variables might need to be a different type?
+					</li>
+				</ul>
+				<aside class="notes">
+					<p>
+						<strong>STOP HERE</strong>
+					</p>
+					<p>
+						Discuss this until the class seems to get the idea
+					</p>
+				</aside>
+
 			</section>
 
-			<section>
+			<!-- <section>
 				<h3>If/Then/Else Exercise</h3>
 				<ul>
 					<li>For this exercise, we're using <b>Ruby</b>.</li>
@@ -1009,7 +1051,7 @@ end
 					<li>Change the operators (greater than, less than, etc.)</li>
 					<li>Change the string statements.</li>
 				</ul>
-			</section>
+			</section> -->
 
 			<section>
 				<h3>Loops</h3>
@@ -1019,17 +1061,27 @@ end
 						There are while loops, do-while loops, and for-each loops.
 					</li>
 				</ul>
-				<div class="fragment">
-					<img class="right" src="images/ourcake.png" style="width: 29%;margin-left: 0px;" />
-					<img class="left" src="images/weddingcake.jpg" style="width: 65%;margin-right: 0px;" />
-				</div>
+				<img class="fragment right" src="images/ourcake.png" style="width: 29%;margin-left: 0px;" />
+				<img class="fragment left" src="images/weddingcake.jpg" style="width: 65%;margin-right: 0px;" />
 			</section>
 
 			<section>
-				<h3>Let's Do Some Loops!</h3>
+				<h3>Loop Examples</h3>
+				<ul>
+					<li class="fragment">
+						In real life: As long as it's raining, use an umbrella.
+					</li>
+					<li class="fragment">
+						On an auction like Ebay.com: Allow bids on this item until the auction timer hits 0.
+					</li>
+				</ul>
+			</br>
+				<p class="fragment">
+					The #1 reason to use a loop is to reduce the number of lines of code you need to write to accomplish a task.
+				</p>
 			</section>
 
-			<section>
+			<!-- section>
 				<h3>Loop Excercise</h3>
 				<ul>
 					<li>For this excercise, we're using Python.</li>
@@ -1054,24 +1106,71 @@ print 'Out of papers! Go home!';
 					<li>Change the string statements.</li>
 					<li>See the next slide that will explain what is happening in the loop (via a diagram).</li>
 				</ul>
+			</section> -->
+
+			<!-- <section>
+				<img src="images/loop-illustration.png" style="background-color:white" />
+				<aside class="notes">
+					This is a visual representation on how a loop might work.
+				</aside>
+			</section> -->
+
+
+
+			<!-- <section>
+				<h3>Loops</h3>
+				<p>There are two kinds of loops:</p>
+
+				<ul style='width:500px;'>
+					<li class='fragment'><strong>While</strong> loops
+						<li class='fragment'><strong>For</strong> loops
+				</ul>
+			</section> -->
+
+			<section>
+				<h3>While loops</h3>
+				<p>A while loop allows code to be executed repeatedly based on a given condition, often based on the value of a variable.
+					Usually your code will need to change the variable within the body of the loop.</p>
+				<br />
+				<pre><code='html'>
+number_of_bottles = 99
+
+while number_of_bottles > 0:
+	print number_of_bottles
+	print ' bottles of beer on the wall'
+	number_of_bottles = number_of_bottles - 1
+print 'no more bottles of beer!'
+				</code></pre>
 			</section>
 
 			<section>
-				<img src="images/loop-illustration.png" style="background-color:white" />
-			</section>
+				<h3>For loops</h3>
+				<p>For loops are very similar to while loops. They just have a different
+					syntax. In a for loop, you set up the conditional AND increment or
+					decrement your variable in the same line.</p><br/>
+				<pre class='fragment'><code='html'>
+for (number_of_bottles = 99;
+		number_of_bottles > 0;
+		number_of_bottles = number_of_bottles - 1)
+	{
+	print number_of_bottles
+	print ' bottles of beer on the wall'
+}
+print 'no more bottles of beer!'
+				</code></pre>
 
+			</section>
 			<section>
 				<h3>Beware the Infinite Loop!</h3>
 				<ul>
 					<li>An infinite loop is a loop that will never meet the condition to stop. It will keep going until it's used up all your computer's (or server's) memory (RAM). This is bad!</li>
-					<li>Example: In the While loop:</li>
-					<ul>
-						<li>If the "papers_to_deliver = papers_to_deliver - 1" line was missing, it would keep looping because 65 is always greater than 0!</li>
-						<li>If "papers_to_deliver = papers_to_deliver - 1" was changed to "+ 1", it would keep adding 1 to 65 forever!</li>
-					</ul>
+					 <li class="fragment">In the 99 bottles of beer example:</li>
+					<ol>
+						<li class="fragment">If the "number_of_bottles = number_of_bottles - 1" line was missing, it would keep looping because 99 is always greater than 0!</li>
+						<li class="fragment">If "number_of_bottles = number_of_bottles - 1" was changed to "+ 1", it would keep adding 1 to 99 forever!</li>
+					</ol>
 				</ul>
 			</section>
-
 
 			<section>
 				<h3>Data Structures</h3>
@@ -1090,22 +1189,39 @@ print 'Out of papers! Go home!';
 							</li>
 						</ol>
 					</li>
+				</br>
 					<li class="fragment">
 						In essence, a data structure is just a way to get around having to create tons of variables.
 					</li>
 				</ul>
 			</section>
 
-			<section>
+			<!-- <section>
 				<h3>Data Structures Exercise </h3>
 				<ul>
 					<li>For this excercise, we're using Java.</li>
 					<li>Go to <a href="https://repl.it/classroom/invite/e9PF0I" target="_blank">GDI Dayton Intro To Programming Concepts Data Structures</a> </li>
 
 				</ul>
-			</section>
+			</section> -->
 
 			<section>
+				<h3>Data Structures</h3>
+				<ul>
+					<li class="fragment">
+						Address book or gmail contacts
+					</li>
+					<li class="fragment">
+						Ordering systems
+					</li>
+				</ul>
+				<p class="fragment">
+					Data structures are all about genericizing the problem to write the least amount of code.
+				</p>
+
+			</section>
+
+			<!-- <section>
 				<h3>Data Structures Exercise (1/2)</h3>
 				<ul>
 					<li class="">If we need to store 10 contacts, we would probably define 10 variables, right?
@@ -1135,7 +1251,7 @@ contacts.add("Jane Smith (jane.smith@someCompany.com)");
 				</li>
 
 				</ul>
-			</section>
+			</section> -->
 
 			<section>
 				<h3>Data Structures Continued</h3>
@@ -1151,6 +1267,41 @@ contacts.add("Jane Smith (jane.smith@someCompany.com)");
 			</section>
 
 			<section>
+				<!-- Concepts: Overview -->
+
+				<h2>Review!</h2>
+				<h3>5 Concepts of every Language</h3>
+				<ol>
+					<li>
+						Tools *
+					</li>
+					<li>
+						Syntax *
+					</li>
+					<li>
+						Variables
+					</li>
+					<li>
+						Control Structures
+					</li>
+					<li>
+						Data Structures *
+					</li>
+
+				</ol>
+				</br>
+
+			</section>
+
+			<section>
+				<h3>Let's Revisit the Sandwich Program</h3>
+				<aside class="notes">
+					If we have time open a github gist to program this as a class.
+
+				</aside>
+			</section>
+
+			<!-- <section>
 				<h2>Data Structures Continued</h2>
 				<h3>Using loops with data structures</h3>
 				<ul>
@@ -1162,12 +1313,12 @@ contacts.add("Jane Smith (jane.smith@someCompany.com)");
 					</li>
 
 				</ul>
-			</section>
+			</section> -->
 
 			<section>
 				<h3>Congratulations! </h3>
-				<img src="images/slide-images/confuseddog.jpg" style="position: relative; top: 0; left: 0;"/>
-				<img src="images/slide-images/iamgod.gif" class="fragment" style="position: absolute;left: 10%;height: 100%;"/>
+				<img src="images/slide-images/confuseddog.jpg" style="position: relative; top: 0; left: 0;" />
+				<img src="images/slide-images/iamgod.gif" class="fragment" style="position: absolute;left: 10%;height: 100%;" />
 			</section>
 
 
