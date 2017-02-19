@@ -16,7 +16,7 @@ You've successfully forked the **gdi-boulder-intro-programming-concepts** reposi
 but so far it only exists on GitHub. To be able to work on the project, you will need to clone it to your local machine.
 
 Run the following in your terminal:
-```ApacheConf
+```
 $ git clone https://github.com/username/gdi-boulder-intro-programming-concepts.git
 # Clones your fork of the repository into the current directory in termina
 ```
