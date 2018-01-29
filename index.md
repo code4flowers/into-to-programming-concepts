@@ -1,4 +1,4 @@
-![Girl Develop It](../images/gdi-dayton-logo.png) <!-- .element: class="no-border" -->
+![Girl Develop It](images/gdi-dayton-logo.png) <!-- .element: class="no-border" -->
 
 #### Network: BuildRight
 #### Password: See the Whiteboard
