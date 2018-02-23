@@ -11,9 +11,9 @@ While you wait for class to begin, get on the wifi and bring up the slides.
 ## Introduction to Programming Concepts
 Brought to you by [Girl Develop It Dayton](http://www.gdidayton.com)
 
-Presented by [Talya Flowers]()
+Presented by [K.C. Jones-Evans](www.kcjonesevans.com)
 
-<small>Teaching assistant is K.C., your GDI Chapter Leader</small>
+<!-- <small>Teaching assistant is K.C., your GDI Chapter Leader</small> -->
 
 <small>Please tweet and instagram us [@GDIDayton](http://www.twitter.com/gdidayton)!</small>
 
@@ -52,8 +52,7 @@ Note:Please take phone converstations outside.
 ---					
 ### Introductions
 * Who are you?
-* What do you hope to get out of the class?
-* <insert>a questions here</insert>
+* What is your favorite thing about winter?
 ---
 
 # Alright let's get started!
@@ -70,14 +69,11 @@ Note:Please take phone converstations outside.
 
 
 
-Note:In this workshop, we'll be sampling from a number of topics,
-
+Note: In this workshop, we'll be sampling from a number of topics,
 
 * (History) starting with running through the history of how computers as we understand them today came to be,
 
-
 * (Think) how computers think, and how the way humans talk (Languages) to computers has changed.
-
 
 * (Concepts)Then we'll dig into some top-level programming concepts to lay a nice foundation for your further forays into programming.
 
@@ -106,11 +102,12 @@ Examples of some early analog calculators.
 <small>From right to left, abacus, astrolabe, sliderule.</small>
 
 Note:
-Computation: The Early Years: Analog Calculators
-People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms. <br> However, these technologies only went so far in that they had singular purposesand their scope was limited by the space they occupied,
-and as the Industrial Revolution kicked up and global trade started to expand,it became more imperative to get engineers and navigators the appropriate tables of equations so they could do their jobs well.
-These math tables were difficult to reproduce accurately, and folks were feeling the pain.
-In classic infomercial style, THERE HAS TO BE A BETTER A BETTER WAY.
+* Computation: The Early Years: Analog Calculators
+People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms. 
+* However, these technologies only went so far in that they had singular purposesand their scope was limited by the space they occupied,
+* and as the Industrial Revolution kicked up and global trade started to expand,it became more imperative to get engineers and navigators the appropriate tables of equations so they could do their jobs well.
+* These math tables were difficult to reproduce accurately, and folks were feeling the pain.
+* In classic infomercial style, THERE HAS TO BE A BETTER A BETTER WAY.
 
 ---
 ## Computation: The Early Years
@@ -173,7 +170,7 @@ device then base-two.
 ## Computation: The Early Years
 
 <img src="images/slide-images/colossus.png" style="height: 60vh" alt="Photo of two programmers next to the Colossus at Bletchley Park" />
-<small><i>Programmers working with the Colossus, a Nazi code-breakin'<br> machine and one of the first digital computers.</i></small>
+<small><i>Programmers working with the Colossus, a Nazi code-breaking<br> machine and one of the first digital computers.</i></small>
 
 Note:
 ... the device, however, was just as large.
@@ -1021,18 +1018,25 @@ Data Structures *
 
 ---
 
+### Thinking like a programmer
+#### Revisiting our sandwich making skills
 
-### Let's Revisit the Sandwich Program
+* Problem solving, taking those tools and using them in different ways to find an answer
+* How would you change your sanwich "program"?
+
+
+
+
 Note:
 If we have time open up codepen and write a JavaScript version of their program!
-
+https://www.youtube.com/channel/UCLEMTlEe5RE04EoULMHWEEQ
 
 ---
-
 
 ### Congratulations! 
 <img src="images/slide-images/confuseddog.jpg" style="position: relative; top: 0; left: 0;" />
 <img src="images/slide-images/iamgod.gif" class="fragment" style="position: absolute;left: 10%;height: 100%;" />
+
 ---
 
 
@@ -1047,10 +1051,22 @@ If we have time open up codepen and write a JavaScript version of their program!
 <li>Skillcrush: <a href="http://skillcrush.com" target="_blank">www.skillcrush.com</a>
 <li>Udacity: <a href="https://www.udacity.com" target="_blank">www.udacity.com</a>
 <li>Udemy: <a href="https://www.udemy.com" target="_blank">www.udemy.com</a>
+<li>Think Like a Programmer: <a href="https://www.youtube.com/channel/UCLEMTlEe5RE04EoULMHWEEQ">Youtube Videos by V. Anton Spraul</a></li>
 <li>And of course, <a href="http://www.girldevelopit.com/chapters/dayton" target="_blank">GDI Dayton!</a>
 <li> <a href="http://www.amazon.com/Program-Second-Edition-Facets-Series/dp/1934356360" target="_blank">Learn to Program</a>, by Chris Pine
 <li> <a href="http://www.amazon.com/Everyday-Scripting-Ruby-Teams-Testers/dp/0977616614/ref=sr_1_1?s=books&ie=UTF8&qid=1405369294&sr=1-1&keywords=everyday+scripting+with+ruby" target="_blank">Everyday Scripting in Ruby</a>, by Brian Marick
 </ul>
+---
+
+### Upcoming Classes
+
+* Intro to HTML/CSS - March 14th
+
+Keep an eye out for these classes in Q2!
+* Intro to Databases
+* Intro to Python
+* Intermediate HTML/CSS
+
 ---
 
 
