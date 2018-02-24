@@ -2,7 +2,7 @@
 
 #### Network: BuildRight
 #### Password: See the Whiteboard
-#### Slides: [bit.ly/gdi-dayton-intro-programming](bit.ly/gdi-dayton-intro-programming)
+#### Slides: [www.bit.ly/gdi-dayton-intro-programming](www.bit.ly/gdi-dayton-intro-programming)
 
 While you wait for class to begin, get on the wifi and bring up the slides.
 
