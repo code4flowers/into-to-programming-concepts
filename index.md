@@ -1,7 +1,7 @@
-![Girl Develop It](images/gdi-dayton-logo.png) <!-- .element: class="no-border" -->
+![Girl Develop It](images/gdicincy.jpeg) <!-- .element: class="no-border" -->
 
-#### Network: BuildRight
-#### Password: See the Whiteboard
+#### Network: Health Carousel Guest
+#### Password: guestnetwork
 #### Slides: [bit.ly/gdi-dayton-intro-programming](bit.ly/gdi-dayton-intro-programming)
 
 While you wait for class to begin, get on the wifi and bring up the slides.
@@ -9,13 +9,13 @@ While you wait for class to begin, get on the wifi and bring up the slides.
 ---
 <!-- <img src="images/gdi-dayton-logo.png" width="200px">.element: class="no-border" -->
 ## Introduction to Programming Concepts
-Brought to you by [Girl Develop It Dayton](http://www.gdidayton.com)
+Brought to you by [Girl Develop It Cincinnati](https://www.meetup.com/Girl-Develop-It-Cincinnati/)
 
-Presented by [K.C. Jones-Evans](www.kcjonesevans.com)
+Presented by [Talya Flowers](https://www.linkedin.com/in/talyaflowers/)
 
-<!-- <small>Teaching assistant is K.C., your GDI Chapter Leader</small> -->
+<!-- <small>Instructor is Talya, your GDI instructor & co-organizer</small> -->
 
-<small>Please tweet and instagram us [@GDIDayton](http://www.twitter.com/gdidayton)!</small>
+<small>Please tweet and instagram us [@gdicincinnati](https://twitter.com/GDICincinnati/status/865606539427561474)!</small>
 
 ---
 ### Welcome!
@@ -26,33 +26,20 @@ Girl Develop It is here to provide affordable and accessible programs to learn s
 * Every question is important
 * Help each other
 * Have fun
-
 ---
-## Thanks to our </br> location sponsor:
-
-![SparkBox](images/sponsors/sparkbox_white.png)
-
-Note: Sparkbox Apprenticeships https://github.com/sparkbox/apprenticeships
-
----
-## Thanks to our snacks sponsor:
-
-<img src="images/sponsors/ais_white.png" width="400px">
-
-Note: AIS Jobs https://www.appliedis.com/careers 
 
 
----
 ## A few quick announcements
-* WiFi Network is BuildRight the password is on the Whiteboard
+* WiFi Network is guestnetwork
 * Restrooms are down the hall and to the right
 * Please be respectful!
 
-Note:Please take phone converstations outside.
+Note:Please take phone conversations outside.
 ---					
 ### Introductions
 * Who are you?
-* What is your favorite thing about winter?
+* What do you like to do for fun?
+* What do you hope to gain out of this class?
 ---
 
 # Alright let's get started!
@@ -98,13 +85,13 @@ Note:SEGUE: The History of Computing
     <img src="images/slide-images/sliderule.jpg" alt="A slide rule." />
 </div>
 
-Examples of some early analog calculators. 
+Examples of some early analog calculators.
 <small>From right to left, abacus, astrolabe, sliderule.</small>
 
 Note:
 * Computation: The Early Years: Analog Calculators
-People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms. 
-* However, these technologies only went so far in that they had singular purposesand their scope was limited by the space they occupied,
+People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms.
+* However, these technologies only went so far in that they had singular purposes and their scope was limited by the space they occupied,
 * and as the Industrial Revolution kicked up and global trade started to expand,it became more imperative to get engineers and navigators the appropriate tables of equations so they could do their jobs well.
 * These math tables were difficult to reproduce accurately, and folks were feeling the pain.
 * In classic infomercial style, THERE HAS TO BE A BETTER A BETTER WAY.
@@ -191,9 +178,9 @@ Ms. Jackson from Nasa
 ---
 ## How Computers Think
 
-Computers have three types of memory &mdash; 
+Computers have three types of memory &mdash;
 * <strong class="blue">Read-Only Memory</strong>,
-* <strong class="blue">Hard Drive Memory</strong>, and 
+* <strong class="blue">Hard Drive Memory</strong>, and
 * <strong class="blue">Random Access Memory</strong>.
 
 
@@ -376,7 +363,7 @@ The first response to machine code was assembly code. These languages made use o
 
 
 <!-- Second Generation Programming Languages -->
-## How We Talk To Computers: 
+## How We Talk To Computers:
 ### The Second Generation
 
 <strong class='blue'>Assembly code</strong> is code that uses chunks of text as symbols for specific processes.
@@ -420,7 +407,7 @@ This floored her coworkers, but once they were convinced that the compiler didn'
 
 
 <!-- Third Generation Programming Languages -->
-## How We Talk To Computers: 
+## How We Talk To Computers:
 ### The Third Generation
 
 <strong class='blue'>Third-generation languages </strong> are languages that machine-independent and whose syntax is abstracted and reads in a much more human fashion.
@@ -462,7 +449,7 @@ Note:
 
 
 <!-- Third Generation Programming Languages-->
-## How We Talk To Computers: 
+## How We Talk To Computers:
 ### The Third Generation
 
 <strong class='green'>Examples: </strong>
@@ -480,7 +467,7 @@ and interact with, high-level languages were the way to go.
 
 
 <!-- Fourth Generation Programming Languages-->
-## How We Talk To Computers: 
+## How We Talk To Computers:
 ### The Fourth Generation
 
 <strong >Examples: </strong>
@@ -511,7 +498,7 @@ Note:
 
 
 <!-- Fourth Generation Programming Languages-->
-## How We Talk To Computers: 
+## How We Talk To Computers:
 ### The Fourth Generation
 ```ruby
 puts 'Hello, world!'
@@ -652,7 +639,7 @@ Data Structures *
 
 * The IDE, Intergrated Development Environment
 
-* The developer community! 
+* The developer community!
 
 Note:
 * Terminal or command line - that scary black/white text box
@@ -742,10 +729,10 @@ areMyEyesGreen = true
 
 ### Our Sandwich Example as Variables
 <ul>
-* 
+*
 What could be a variable?
 
-* 
+*
 What kind of variable will it be?
 
 </ul>
@@ -838,10 +825,10 @@ else DO_SOMETHING_ELSE_ENTIRELY end
 
 ### Our Sandwich Example with If/Else
 <ul>
-* 
+*
 What conditions do we have?
 
-* 
+*
 What variables might need to be a different type?
 
 </ul>
@@ -870,10 +857,10 @@ There are while loops, do-while loops, and for-each loops.
 
 ### Loop Examples
 <ul>
-* 
+*
 In real life: As long as it's raining, use an umbrella.
 
-* 
+*
 On an auction like Ebay.com: Allow bids on this item until the auction timer hits 0.
 
 </ul>
@@ -891,7 +878,7 @@ There are two kinds of loops:
 <li class='fragment'><strong>While</strong> loops
 <li class='fragment'><strong>For</strong> loops
 </ul>
---- 
+---
 
 
 ### While loops
@@ -944,7 +931,7 @@ print 'no more bottles of beer!'
 <li>
 A data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
 
-* 
+*
 Having data structures provides two key things:
 <ol>
 <li>
@@ -956,7 +943,7 @@ Allows us to keep the code flexible
 </ol>
 
 </br>
-* 
+*
 In essence, a data structure is just a way to get around having to create tons of variables.
 
 </ul>
@@ -964,10 +951,10 @@ In essence, a data structure is just a way to get around having to create tons o
 
 ### Data Structures
 <ul>
-* 
+*
 Address book or gmail contacts
 
-* 
+*
 Ordering systems
 
 </ul>
@@ -1022,7 +1009,7 @@ Data Structures *
 #### Revisiting our sandwich making skills
 
 * Problem solving, taking those tools and using them in different ways to find an answer
-* How would you change your sanwich "program"?
+* How would you change your sandwich "program"?
 
 
 
@@ -1033,7 +1020,7 @@ https://www.youtube.com/channel/UCLEMTlEe5RE04EoULMHWEEQ
 
 ---
 
-### Congratulations! 
+### Congratulations!
 <img src="images/slide-images/confuseddog.jpg" style="position: relative; top: 0; left: 0;" />
 <img src="images/slide-images/iamgod.gif" class="fragment" style="position: absolute;left: 10%;height: 100%;" />
 
@@ -1060,18 +1047,16 @@ https://www.youtube.com/channel/UCLEMTlEe5RE04EoULMHWEEQ
 
 ### Upcoming Classes
 
-* Intro to HTML/CSS - March 14th
+*SEO and/or Wordpress Workshop Tuesday, August 7
 
-Keep an eye out for these classes in Q2!
-* Intro to Databases
-* Intro to Python
-* Intermediate HTML/CSS
+*Intro to HTML/CSS at Sogeti, August 14, 16, 21, & 23
+
+*CSS Animation Workshop at Quotient, August 28 or August 30
+
 
 ---
 
 
 ### Class survey
-<a href="http://bit.ly/gdi-dayton-class-survey">bit.ly/gdi-dayton-class-survey</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeORna_SsOgLqF_CE8josY0wFIRp0KSBrIVjq3IW8ZyplPoLg/viewform?c=0&w=1">http://bit.ly/proconcepts</a>
 ---
-
-
