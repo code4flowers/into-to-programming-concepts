@@ -2,6 +2,7 @@
 
 #### Network: Health Carousel Guest
 #### Password: guestnetwork
+#### Slides: [https:basics.gdicincy.com](https://basic.gdicincy.com)
 
 While you wait for class to begin, get on the wifi and bring up the slides.
 
@@ -1044,7 +1045,9 @@ https://www.youtube.com/channel/UCLEMTlEe5RE04EoULMHWEEQ
 </ul>
 ---
 
-### Upcoming Classes
+### Upcoming Workshops/Classes
+
+*Code and Coffee Workshop-Build WebVR with Matt Fisher Monday, July 30
 
 *SEO and/or Wordpress Workshop Tuesday, August 7
 
