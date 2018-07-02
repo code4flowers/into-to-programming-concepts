@@ -2,7 +2,7 @@
 
 #### Network: Health Carousel Guest
 #### Password: guestnetwork
-#### Slides: [bit.ly/gdi-dayton-intro-programming](bit.ly/gdi-dayton-intro-programming)
+#### Slides:[basics.gdicincy.com](http://basics.gdicincy.com/#/)
 
 While you wait for class to begin, get on the wifi and bring up the slides.
 
