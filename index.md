@@ -3,7 +3,7 @@
 #### Network: Health Carousel Guest
 #### Password: guestnetwork
 #### Slides: [https:basics.gdicincy.com](https://basics.gdicincy.com)
-While you wait for class to begin, get on the wifi and bring up the slides.
+It's so nice to finally meet you! 
 
 ---
 <!-- <img src="images/gdi-dayton-logo.png" width="200px">.element: class="no-border" -->
