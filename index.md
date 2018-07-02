@@ -3,7 +3,6 @@
 #### Network: Health Carousel Guest
 #### Password: guestnetwork
 #### Slides: [https:basics.gdicincy.com](https://basics.gdicincy.com)
-
 While you wait for class to begin, get on the wifi and bring up the slides.
 
 ---
