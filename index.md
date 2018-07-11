@@ -3,7 +3,7 @@
 #### Network: Health Carousel Guest
 #### Password: guestnetwork
 #### Slides: [https:basics.gdicincy.com](https://basics.gdicincy.com)
-It's so nice to finally meet you! 
+It's so nice to finally meet you!
 
 ---
 <!-- <img src="images/gdi-dayton-logo.png" width="200px">.element: class="no-border" -->
@@ -89,7 +89,7 @@ Examples of some early analog calculators.
 
 Note:
 * Computation: The Early Years: Analog Calculators
-People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logorithms.
+People have been using tools with varying levels of complexity to make math easier for years, from abacuses for basic math to slide rules for trigonometry for logarithms.
 * However, these technologies only went so far in that they had singular purposes and their scope was limited by the space they occupied,
 * and as the Industrial Revolution kicked up and global trade started to expand,it became more imperative to get engineers and navigators the appropriate tables of equations so they could do their jobs well.
 * These math tables were difficult to reproduce accurately, and folks were feeling the pain.
@@ -697,7 +697,7 @@ year = 2016
 <li>String variables are used to store text.
 </ul>
 <pre><code>
-name = "K.C. Jones-Evans"
+name = "Talya Flowers"
 myString = 'Hello World'
 </code></pre>
 ---
@@ -709,8 +709,8 @@ myString = 'Hello World'
 <li>If you store a number as a string variable, you can’t use it in any math calculations.
 </ul>
 <pre><code>
-age = "28"
-year = '2016'
+age = "25"
+year = '2018'
 </code></pre>
 ---
 
