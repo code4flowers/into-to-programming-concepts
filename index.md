@@ -668,7 +668,7 @@ This is what makes each language unique
 <li>Examples:
 <pre><code>
 age = 28
-color = "blue"
+color = "brown"
 </code></pre>
 <li>There are different kinds of variables based on the information that you want to store.
 </ul>
